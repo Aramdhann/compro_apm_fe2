@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Patricia Hutapea",
+    "position": "direksi dan pemegang saham",
+    "description": "Lahir di Jakarta. Berdomisili di Jakarta, Indonesia. Menjabat sebagai Pemegang Saham PT Artha Permata Makmur sejak 31 Desember 2019. Dan menjadi direksi sejak 18 Februari 2020.",
+    "career": "Mengawali karir sebagai Assistant Product Manager di Citibank (1998). Selanjutnya menjadi Assistant Product Manager di Gardenia Foods Singapore pada (1998-2000). Setelah itu menjadi Financial Marketing Summer Intern di Pepsi Cola Company, New York (2001). Lalu menjabat sebagai Business Manager Nissho Iwai American Corporation, New York (2002-2004). Pemegang saham PT Panca Global Sekuritas sejaktahun 2004 dan PT Panca Global Kapital sejak tahun 2018.",
+    "background": "Menempuh Pendidikan di University of Wisconsin, Madison dengan gelar Sarjana Administrasi Bisnis dan gelar Magister Administrasi Bisnis dari Carnegie Mellon University, Pittsburgh PA.",
+    "images": ["../../../src/assets/dir_1.jpg"]
+  },
+  {
+    "id": 2,
+    "name": "Lili Darmawan",
+    "position": "pemegang saham",
+    "description": "Lahir di Jakarta. Berdomisili di Jakarta, Indonesia. Menjabat sebagai Pemegang Saham PT Artha Permata Makmur sejak Januari 2018.",
+    "career": "Berkarir di PT Altha Permata Makmur Indonesia sebagai Direktur Akuntansi dan Keuangan sejak 2004.",
+    "background": "Menyelesaikan pendidikan Sl jurusan Ekonomi di Sekolah Tinggi Ilmu Ekonomi YAI Jakarta pada tahun 2001.",
+    "images": ["../../../src/assets/dir_2.jpg"]
+  }
+]

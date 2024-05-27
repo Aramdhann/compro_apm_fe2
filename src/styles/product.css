@@ -1,0 +1,6 @@
+.bg-image {
+  border: 1px solid black;
+  background-color: red;
+  background: url('../assets/bg_product.svg');
+  height: 500px;
+}

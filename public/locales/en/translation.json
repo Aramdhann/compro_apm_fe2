@@ -1,0 +1,178 @@
+{
+  "navbar": {
+    "btn-1": "Home",
+    "btn-2": "Product",
+    "btn-3": "Events & Activities",
+    "btn-4": "About Us",
+    "btn-5": "FAQ",
+    "btn-6": "Contact Us",
+    "tkb-desc": "Total Success Rate (TKB TOTAL) is a comparison of the value of non-performing loans (NPL) to the total value of loans that have been successfully disbursed."
+  },
+  "fraud": "<strong>Avoid fraud!</strong> always use the official Cashcepat application <strong> on Google Playstore</strong>. Only use the VA listed in Cashcepat application for all your payment transactions.",
+  "hero": {
+    "title": "Growing Together <br /> For a Better Life",
+    "description": "Cashcepat is an innovative platform in the field of Information Technology-Based Funding, with strict supervision from the Financial Services Authority (OJK). We are an intermediary that connects Funders and Recipients of Funds through practical and safe online services."
+  },
+  "trusted": {
+    "ojk": "Licensed and Supervised By:",
+    "afpi": "Registered members of:",
+    "iso": "ISO Certified:",
+    "kominfo": "Registered at:"
+  },
+  "why": {
+    "title": "Why Should You Use Cashcepat?",
+    "reason-1": "<strong>Licensed and Supervised</strong><br /><strong>OJK</strong>(Financial Services Authority)",
+    "reason-2": "<strong>Member of AFPI</strong><br />(Indonesian Joint Funding Fintech Association)",
+    "reason-3": "Fast Disbursement Process",
+    "reason-4": "Low Loan Interest",
+    "reason-5": "Opportunity to get a discount",
+    "reason-5-2": "repayment"
+  },
+  "easyWay": {
+    "title": "Easy steps for Cashcepat",
+    "way-1": "Download and registration",
+    "desc-1": "Download, register and prepare your personal data for loan application.",
+    "way-2": "Select Product and Amount",
+    "desc-2": "Select the nominal and tenor that suits your needs.",
+    "way-3": "Fund Disbursement Process",
+    "desc-3": "After verification, wait for the funds to be disbursed which will immediately enter your account.",
+    "way-4": "Repayment",
+    "desc-4": "Make repayment easily using the Virtual Account (VA) listed in the application."
+  },
+  "milestone": {
+    "title": "Our Journey"
+  },
+  "ads": {
+    "title": "Download CashCepat application now for fast loans!",
+    "fraud": "*) Only download Cashcepat application on Google Playstore"
+  },
+  "serviceHour": {
+    "title": "Consumer Telephone Service Hours",
+    "title-2": "Contact Us",
+    "day-1": "Monday - Friday",
+    "day-2": "Saturday",
+    "name": "Name",
+    "phone": "Phone Number",
+    "message": "Message",
+    "send": "Send Message",
+    "type": "Type here...",
+    "area": "Write your message here...",
+    "report": "type of complaint",
+    "complaintType": "Complaint Type",
+    "complaintTypes": {
+      "pengajuan": "Submission",
+      "pembayaran": "Payment",
+      "aplikasi": "Application",
+      "informasi": "Information",
+      "lain-lain": "Other"
+    }
+  },
+  "footer": {
+    "office": "Head Office",
+    "download": "Download the Application",
+    "fraud": "*) Only download Cashcepat application on Google Playstore"
+  },
+  "product": {
+    "title": "Simulate Loans at Cashcepat",
+    "description": "Immediately simulate your loan with Cashcepat and start planning your financial dreams today!",
+    "simulation": "Try Simulation",
+    "salary": "Your Salary",
+    "loan": "Loan Amount",
+    "tenor": " Installment Amount",
+    "month": "Times",
+    "instalment": "Monthly Instalments",
+    "interest": "*) includes interest",
+    "salaryRequired": "Please enter your salary amount to proceed.",
+    "submission": "Calculate"
+  },
+  "event": {
+    "title": "Events and Activities",
+    "date": "Date",
+    "enddate": "End Date",
+    "activity": "Event Activity",
+    "location": "Location",
+    "coverage": "Coverage"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "PT. Artha Permata Makmur, through the Cashcepat product, is an information technology-based funding service provider that is committed to providing easy and fast access to funding for the community. Licensed and supervised by the Financial Services Authority (OJK), we connect directly between funders and recipients of funds through our online platform. With a focus on convenience, security and comfort, Cashcepat is here to help realize your various financial needs.",
+    "vision": {
+      "title": "Vision",
+      "description": "Cashcepat has a vision to create a better life for all Indonesian citizens by providing a platform and services to meet financial and investment needs easily, anywhere and anytime."
+    },
+    "mission": {
+      "title": "Mission",
+      "m-1": "Continuous improvement in the quality of systems, human resources and processes",
+      "m-2": "Caring for all stakeholders with the best intentions",
+      "m-3": "Participate in improving the welfare of society and society",
+      "m-4": "To comply with and comply with industry standards of excellence"
+    }
+  },
+  "director": {
+    "title": "Profile of Directors and Commissioners",
+    "position-1": "directors and shareholders",
+    "career": "career journey",
+    "education": "educational background"
+  },
+  "program": {
+    "title": "Programs",
+    "read": "Read More"
+  },
+  "detail": {
+    "title": "Cashcepat Business Details",
+    "loanTotal": "Total Loans Disbursed (2018)",
+    "loanCurrent": "Total Loans Disbursed (2023)",
+    "loanOutstanding": "Loan Outstanding",
+    "individu": "Individual",
+    "institution": "Institution",
+    "loan": "Amount of Borrowers",
+    "activeBorrower": "Number of Active Borrowers",
+    "uniqueAccount": "Number of Borrowers <br /> (Unique Account)",
+    "lastUpdate": "*) Last updated on "
+  },
+  "report": {
+    "stateFinancial": "Statement of Financial Position",
+    "date": "On",
+    "audited": "Audited",
+    "asset": "assets",
+    "currentAsset": "Current Assets",
+    "non-currentAsset": "Non-Current Assets",
+    "liabilities": "liabilities",
+    "equity": "equity",
+    "total": "Total",
+    "stateCompre": "Comprehensive Income Statement",
+    "income": "income",
+    "operating": "operating expenses",
+    "otherIncome": "other income",
+    "compre": "comprehensive profit (loss)",
+    "opini": "Audit Opinion",
+    "opiniAudited": "Unqualified Audit Opinion (Audited by McMillanWoods / KAP Rama Wendra)"
+  },
+  "faqTitle": "Frequently Asked Questions (FAQ)",
+  "modal": {
+    "title": "risk disclaimer",
+    "paraph-1": "Information Technology Based Lending and Borrowing Services is a civil agreement between the Lender and the Loan Recipient, so that all risks arising from the agreement are fully borne by each party.",
+    "paraph-2": "Credit or default risks are borne entirely by the Lender. No state institution or authority is responsible for this default risk.",
+    "paraph-3": "The Operator with the consent of each User (Lender and/or Loan Recipient) accesses to obtain, store, manage, and/or use the User's personal data ('Utilization of Data') on or in objects, electronic devices (including smartphones or cellular telephones), hardware or software, electronic documents, applications or electronic systems belonging to the User or controlled by the User, by informing the relevant User of the purpose, limitations and mechanism for Utilizing the Data before obtaining the intended approval.",
+    "paraph-4": "Lenders who do not have knowledge and experience of lending and borrowing are advised not to use this service.",
+    "paraph-5": "Loan recipients must consider the loan interest rate and other costs according to their ability to repay the loan.",
+    "paraph-6": "Every fraud is recorded digitally in cyberspace and can be known to the wider public on social media.",
+    "paraph-7": "Users must read and understand this information before making a decision to become a Lender or Loan Recipient.",
+    "paraph-8": "The government, in this case the Financial Services Authority, is not responsible for any violation or non-compliance by Users, both Lenders and Loan Recipients (whether due to the User's intention or negligence) with the provisions of laws and regulations or agreements or agreement between the Organizer and the Lender and/or Loan Recipient.",
+    "paraph-9": "Every lending and borrowing transaction and activity or implementation of an agreement regarding lending and borrowing between or involving the Organizer, Lender and/or Loan Recipient must be carried out through an escrow account and virtual account as required under Financial Services Authority Regulation Number 10 /POJK.05/2022 concerning Information Technology-Based Money Lending and Borrowing Services and violation or non-compliance with these provisions is evidence that a legal violation has occurred by the Operator so that the Operator is obliged to bear the compensation suffered by each User as a direct result of the violation of the law. above without reducing the rights of Users who suffer losses according to the Civil Code.",
+    "paraph-10": "<strong>PT Artha Permata Makmur</strong> is a legal entity established based on the Law of the Republic of Indonesia. Established as a company that has been regulated by and is supervised by the Financial Services Authority (OJK) in Indonesia, the Company provides services 'interfacing as a liaison between parties who provide loans and parties who need loans, including funding from individuals, organizations or legal entities to certain individuals or legal entities.' The company does not provide any form of advice or funding recommendations regarding the options on this site.",
+    "paraph-11": "The content and materials available on the site <strong>www.cashcepat.id </strong> are intended to provide information and are not considered an offer, solicitation, invitation, advice or recommendation to invest in securities, products capital markets, or other financial services. The company provides its services only limited to administrative functions.",
+    "paraph-12": "Funding and loans placed in the <strong>Cashcepat</strong> account are not and will not be considered as deposits held by the Company as regulated in the Laws and Regulations on Banking in Indonesia. The Company or any Director , Officers, Employees, Representatives, Affiliates, or Agents have no responsibility in connection with any disturbance or problem that occurs or is deemed to occur due to the lack of preparation or publication of the material listed on the Company's website.",
+    "agree": "agree"
+  },
+  "cs": {
+    "flow-1": "Consumers make complaints via contact cashcepat <strong>(021) 83782891/92</strong>, email cashcepat <strong>(cs@cashcepat.co.id)</strong>, or fill out the form <strong>'Contact Us'</strong>.",
+    "flow-2": "Waiting for analysis regarding the problem for a maximum of 24 hours.",
+    "flow-3": "Information regarding updates to the problem will be sent back via the reporter's email."
+  },
+  "modal-email": {
+    "title": "your email was successfully sent",
+    "message": "We are reviewing your message and will contact you via the telephone number or email listed within a maximum of 24 hours. Thank you for your understanding.",
+    "button": "close"
+  }
+}

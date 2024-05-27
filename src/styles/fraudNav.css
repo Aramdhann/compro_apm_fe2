@@ -1,0 +1,26 @@
+.move-left {
+  overflow: hidden;
+  position: relative;
+  max-width: 1000px;
+  animation: mymove 10s linear infinite alternate;
+  -webkit-animation: mymove 10s linear infinite; /* Safari 4.0 - 8.0 */
+  white-space: nowrap;
+}
+
+@-webkit-keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -100%;
+  }
+}

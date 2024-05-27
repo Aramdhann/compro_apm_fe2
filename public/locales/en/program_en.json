@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Inamikro",
+    "description": "On January 7 2021 Cashcepat and Inamikro collaborated for the first time to introduce loan products to market traders through Cashcepat. We work together to provide loans to MSMEs for working capital and other purposes. The loan product offered to merchants is a maximum of 2 million rupiah. Inamikro plays a role helps traders who meet the qualifications and need a loan, provided they meet Cashcepat's criteria such as valid customer base information / according to KTP, valid bank account, valid employment information, business ID number and must meet the assessment of the Cashcepat analyst team. On the 15th and 16 February 2021 the Cashcepat and Inamikro teams have succeeded in introducing loan products to their traders independently, the target markets that were successfully introduced by the Inamikro team include the Mayestik Market. In batch 1 on 15 February 2021 to 4 March 2021 the Inamikro and Cashcepat teams succeeded in funding 23 of 36 traders who whitelisted their cellphone numbers. In other words, Cashcepat succeeded in providing funding of 46 million rupiah to 23 MSME traders.",
+    "images": [
+      "../../../src/assets/Inamikro_1.jpg",
+      "../../../src/assets/Inamikro_2.jpg",
+      "../../../src/assets/Inamikro_3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Madu",
+    "description": "On January 7 2024 Cashcepat and Madu collaborated for the first time to introduce loan products to market traders through Cashcepat. We work together to provide loans to MSMEs for working capital and other purposes. The loan product offered to merchants is a maximum of 2 million rupiah. Inamikro plays a role helps traders who meet the qualifications and need a loan, provided they meet Cashcepat's criteria such as valid customer base information / according to KTP, valid bank account, valid employment information, business ID number and must meet the assessment of the Cashcepat analyst team. On the 15th and 16 February 2021 the Cashcepat and Inamikro teams have succeeded in introducing loan products to their traders independently, the target markets that were successfully introduced by the Inamikro team include the Mayestik Market. In batch 1 on 15 February 2021 to 4 March 2021 the Inamikro and Cashcepat teams succeeded in funding 23 of 36 traders who whitelisted their cellphone numbers. In other words, Cashcepat succeeded in providing funding of 46 million rupiah to 23 MSME traders.",
+    "images": [
+      "../../../src/assets/madu_1.jpg",
+      "../../../src/assets/madu_2.jpg"
+    ]
+  }
+]

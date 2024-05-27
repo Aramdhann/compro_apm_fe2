@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Inamikro",
+    "description": "Pada tanggal 7 Januari 2021 Cashcepat dan Inamikro untuk pertama kalinya bekerjasama memperkenalkan produk pinjaman kepada pedagang pasar melalui Cashcepat. Kami bersinergi memberikan pinjaman kepada UMKM dengan tujuan modal kerja dan lain-lain. Produk pinjaman yang ditawarkan kepada merchant maksimal 2 juta rupiah. Inamikro berperan membantu pedagang yang memenuhi kualifikasi dan membutuhkan pinjaman, dengan syarat memenuhi kriteria Cashcepat seperti informasi basis pelanggan yang valid / sesuai KTP, rekening bank yang valid, informasi pekerjaan yang valid, nomor ID usaha dan harus memenuhi penilaian dari tim analis Cashcepat. Pada tanggal 15 dan 16 Februari 2021 tim Cashcepat dan Inamikro telah berhasil memperkenalkan produk pinjaman kepada para pedagangnya secara mandiri, target pasar yang berhasil diperkenalkan oleh tim Inamikro antara lain Pasar Mayestik. Pada batch 1 tanggal 15 Februari 2021 hingga 4 Maret 2021 tim Inamikro dan Cashcepat berhasil mendanai 23 dari 36 pedagang yang mem-whitelist nomor ponselnya. Dengan kata lain, Cashcepat berhasil memberikan pendanaan sebesar 46 juta rupiah kepada 23 pedagang UMKM.",
+    "images": [
+      "../../../src/assets/Inamikro_1.jpg",
+      "../../../src/assets/Inamikro_2.jpg",
+      "../../../src/assets/Inamikro_3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Madu",
+    "description": "Pada tanggal 7 Januari 2024 Cashcepat dan Madu untuk pertama kalinya bekerjasama memperkenalkan produk pinjaman kepada pedagang pasar melalui Cashcepat. Kami bersinergi memberikan pinjaman kepada UMKM dengan tujuan modal kerja dan lain-lain. Produk pinjaman yang ditawarkan kepada merchant maksimal 2 juta rupiah. Inamikro berperan membantu pedagang yang memenuhi kualifikasi dan membutuhkan pinjaman, dengan syarat memenuhi kriteria Cashcepat seperti informasi basis pelanggan yang valid / sesuai KTP, rekening bank yang valid, informasi pekerjaan yang valid, nomor ID usaha dan harus memenuhi penilaian dari tim analis Cashcepat. Pada tanggal 15 dan 16 Februari 2021 tim Cashcepat dan Inamikro telah berhasil memperkenalkan produk pinjaman kepada para pedagangnya secara mandiri, target pasar yang berhasil diperkenalkan oleh tim Inamikro antara lain Pasar Mayestik. Pada batch 1 tanggal 15 Februari 2021 hingga 4 Maret 2021 tim Inamikro dan Cashcepat berhasil mendanai 23 dari 36 pedagang yang mem-whitelist nomor ponselnya. Dengan kata lain, Cashcepat berhasil memberikan pendanaan sebesar 46 juta rupiah kepada 23 pedagang UMKM.",
+    "images": [
+      "../../../src/assets/madu_1.jpg",
+      "../../../src/assets/madu_2.jpg"
+    ]
+  }
+]

@@ -1,0 +1,178 @@
+{
+  "navbar": {
+    "btn-1": "Home",
+    "btn-2": "Produk",
+    "btn-3": "Acara & Kegiatan",
+    "btn-4": "Tentang Kami",
+    "btn-5": "FAQ",
+    "btn-6": "Hubungi Kami",
+    "tkb-desc": "Tingkat Keberhasilan Total (TKB TOTAL) merupakan angka perbandingan nilai kredit bermasalah (Non Performing Loan / NPL) terhadap total nilai pinjaman yang berhasil disalurkan."
+  },
+  "fraud": "<strong>Hindari penipuan!</strong> selalu gunakan aplikasi resmi Cashcepat yang <strong> di Google Playstore</strong>. Hanya gunakan VA yang tertera di aplikasi Cashcepat untuk seluruh transaksi pembayaran Anda.",
+  "hero": {
+    "title": "Tumbuh Bersama <br /> Untuk Hidup Yang Lebih Baik",
+    "description": "Cashcepat adalah platform inovatif dalam bidang Pendanaan Berbasis Teknologi Informasi, dengan pengawasan ketat dari Otoritas Jasa Keuangan (OJK). Kami menjadi perantara yang menghubungkan Pemberi Dana dan Penerima Dana melalui layanan daring yang praktis dan aman."
+  },
+  "trusted": {
+    "ojk": "Berizin dan Di awasi Oleh:",
+    "afpi": "Anggota terdaftar dari:",
+    "iso": "Tersertifikasi ISO:",
+    "kominfo": "Terdaftar di:"
+  },
+  "why": {
+    "title": "Mengapa Harus Cashcepat?",
+    "reason-1": "<strong>Berizin dan Diawasi</strong><br /><strong>OJK</strong>(Otoritas Jasa Keuangan)",
+    "reason-2": "<strong>Anggota dari AFPI</strong><br />(Asosiasi Fintech Pendanaan Bersama Indonesia)",
+    "reason-3": "Proses Pencairan Cepat",
+    "reason-4": "Bunga Pinjaman Rendah",
+    "reason-5": "Berkesempatan mendapat diskon",
+    "reason-5-2": "repayment"
+  },
+  "easyWay": {
+    "title": "Langkah Mudah Cashcepat",
+    "way-1": "Unduh dan registrasi",
+    "desc-1": "Unduh, daftar, dan siapkan data diri Anda untuk pengajuan pinjaman.",
+    "way-2": "Pilih Produk dan Nominal",
+    "desc-2": "Pilih nominal dan tenor yang sesuai dengan kebutuhan Anda.",
+    "way-3": "Proses Pencairan Dana",
+    "desc-3": "Setelah diverifikasi tunggu pencairan dana yang akan segera masuk ke rekening Anda.",
+    "way-4": "Repayment",
+    "desc-4": "Lakukan repayment dengan mudah menggunakan Virtual Account (VA) yang tertera pada aplikasi."
+  },
+  "milestone": {
+    "title": "Perjalanan Kami"
+  },
+  "ads": {
+    "title": "Download aplikasi CashCepat sekarang untuk pinjaman cepat!",
+    "fraud": "*) Hanya download aplikasi Cashcepat di Google Playstore"
+  },
+  "serviceHour": {
+    "title": "Jam Pelayanan Telepon Konsumen",
+    "title-2": "Hubungi Kami",
+    "day-1": "Senin - Jumat",
+    "day-2": "Sabtu",
+    "name": "Nama",
+    "phone": "Nomor Telephone",
+    "message": "Pesan",
+    "send": "Kirimkan Pesan",
+    "type": "Ketik di sini...",
+    "area": "Tulis pesan Anda di sini...",
+    "report": "jenis pengaduan",
+    "complaintType": "Jenis Pengajuan",
+    "complaintTypes": {
+      "pengajuan": "Pengajuan",
+      "pembayaran": "Pembayaran",
+      "aplikasi": "Aplikasi",
+      "informasi": "Informasi",
+      "lain-lain": "Lainnya"
+    }
+  },
+  "footer": {
+    "office": "Kantor Pusat",
+    "download": "Download Aplikasinya",
+    "fraud": "*) Hanya download aplikasi Cashcepat di Google Playstore"
+  },
+  "product": {
+    "title": "Simulasikan Pinjaman di Cashcepat",
+    "description": "Segera simulasikan pinjaman Anda dengan Cashcepat dan mulai rencanakan impian finansial Anda hari ini!",
+    "simulation": "Coba Simulasi",
+    "salary": "Gaji Anda",
+    "loan": "Jumlah Pinjaman",
+    "tenor": "Jumlah Cicilan",
+    "month": "Kali",
+    "instalment": "Cicilan per Bulan",
+    "interest": "*) sudah termasuk bunga",
+    "salaryRequired": "Silakan masukkan jumlah gaji Anda untuk melanjutkan.",
+    "submission": "Hitung"
+  },
+  "event": {
+    "title": "Acara dan Kegiatan",
+    "date": "Tanggal",
+    "enddate": "Tanggal Selesai",
+    "activity": "Kegiatan Acara",
+    "location": "Lokasi",
+    "coverage": "Liputan"
+  },
+  "about": {
+    "title": "Tentang Kami",
+    "description": "PT. Artha Permata Makmur, melalui produk Cashcepat, merupakan penyedia layanan pendanaan berbasis teknologi informasi yang berkomitmen untuk memberikan akses mudah dan cepat ke pendanaan bagi masyarakat. Berizin dan diawasi oleh Otoritas Jasa Keuangan (OJK), kami menghubungkan langsung antara pemberi dana dan penerima dana melalui platform online kami. Dengan fokus pada kemudahan, keamanan, dan kenyamanan, Cashcepat hadir untuk membantu mewujudkan berbagai kebutuhan finansial Anda.",
+    "vision": {
+      "title": "Visi",
+      "description": "Cashcepat memiliki visi untuk menciptakan kehidupan yang lebih baik bagi seluruh Warga Negara Indonesia dengan menyediakan platform dan juga layanan di dalamnya memenuhi Kebutuhan Finansial dan Investasi dengan mudah, dimana saja, dan kapan saja."
+    },
+    "mission": {
+      "title": "Misi",
+      "m-1": "Perbaikan berkelanjutan pada kualitas sistem, sumber daya manusia, dan proses",
+      "m-2": "Merawat seluruh pemangku kepentingan dengan niat terbaik",
+      "m-3": "Berpartisipasi dalam peningkatan kesejahteraan masyarakat dan masyarakat",
+      "m-4": "Untuk mematuhi dan mematuhi standar industri yang unggulan"
+    }
+  },
+  "director": {
+    "title": "Profil Direksi dan Komisaris",
+    "position-1": "direksi dan pemegang saham",
+    "career": "perjalanan karir",
+    "education": "latar belakang pendidikan"
+  },
+  "program": {
+    "title": "Program-Program",
+    "read": "Baca Selengkapnya"
+  },
+  "detail": {
+    "title": "Detail Bisnis Cashcepat",
+    "loanTotal": "Total Pinjaman Yang Disalurkan (2018)",
+    "loanCurrent": "Total Pinjaman Yang Disalurkan (2023)",
+    "loanOutstanding": "Loan Outstanding Pinjaman",
+    "individu": "Individu",
+    "institution": "Institusi",
+    "loan": "Jumlah Peminjam",
+    "activeBorrower": "Jumlah Peminjam Aktif",
+    "uniqueAccount": "Jumlah Peminjam <br /> (Unique Account)",
+    "lastUpdate": "*) Terakhir diperbarui pada "
+  },
+  "report": {
+    "stateFinancial": "Laporan Posisi Keuangan",
+    "date": "Pada Tanggal",
+    "audited": "Teraudit",
+    "asset": "asset",
+    "currentAsset": "Lancar",
+    "non-currentAsset": "Tidak Lancar",
+    "liabilities": "liabilitas",
+    "equity": "ekuitas",
+    "total": "Jumlah",
+    "stateCompre": "Laporan Laba Rugi Komprehensif",
+    "income": "pendapatan",
+    "operating": "beban operasional",
+    "otherIncome": "pendapatan lainnya",
+    "compre": "laba (rugi) komprehensif",
+    "opini": "Opini Audit",
+    "opiniAudited": "Wajar Tanpa Pengecualian (Di audit oleh McWillian Woods / KAP Rama Wendra)"
+  },
+  "faqTitle": "Pertanyaan yang Sering Diajukan",
+  "modal": {
+    "title": "disclaimer resiko",
+    "paraph-1": "Layanan Pinjam Meminjam Berbasis Teknologi Informasi merupakan kesepakatan perdata antara Pemberi Pinjaman dengan Penerima Pinjaman, sehingga segala risiko yang timbul dari kesepakatan tersebut ditanggung sepenuhnya oleh masing-masing pihak.",
+    "paraph-2": "Risiko kredit atau gagal bayar ditanggung sepenuhnya oleh Pemberi Pinjaman. Tidak ada lembaga atau otoritas negara yang bertanggung jawab atas risiko gagal bayar ini.",
+    "paraph-3": " Penyelenggara dengan persetujuan dari masing-masing Pengguna (Pemberi Pinjaman dan/atau Penerima Pinjaman) mengakses memperoleh, menyimpan, mengelola, dan/atau menggunakan data pribadi Pengguna ('Pemanfaatan Data') pada atau di dalam benda, perangkat elektronik (termasuk smartphone atau telepon seluler), perangkat keras (hardware) maupun lunak (software), dokumen elektronik, aplikasi atau sistem elektronik milik Pengguna atau yang dikuasai Pengguna, dengan memberitahukan tujuan, batasan, dan mekanisme Pemanfaatan Data tersebut kepada Pengguna yang bersangkutan sebelum memperoleh persetujuan yang dimaksud.",
+    "paraph-4": "Pemberi Pinjaman yang belum memiliki pengetahuan dan pengalaman pinjam meminjam, disarankan untuk tidak menggunakan layanan ini.",
+    "paraph-5": "Penerima Pinjaman harus mempertimbangkan tingkat bunga pinjaman dan biaya lainnya sesuai dengan kemampuan dalam melunasi pinjaman.",
+    "paraph-6": "Setiap kecurangan tercatat secara digital di dunia maya dan dapat diketahui masyarakat luas di media sosial.",
+    "paraph-7": "Pengguna harus membaca dan memahami informasi ini sebelum membuat keputusan menjadi Pemberi Pinjaman atau Penerima Pinjaman.",
+    "paraph-8": "Pemerintah yaitu dalam hal ini Otoritas Jasa Keuangan, tidak bertanggung jawab atas setiap pelanggaran atau ketidakpatuhan oleh Pengguna, baik Pemberi Pinjaman maupun Penerima Pinjaman (baik karena kesengajaan atau kelalaian Pengguna) terhadap ketentuan peraturan perundang-undangan maupun kesepakatan atau perikatan antara Penyelenggara dengan Pemberi Pinjaman dan/atau Penerima Pinjaman.",
+    "paraph-9": "Setiap transaksi dan kegiatan pinjam meminjam atau pelaksanaan kesepakatan mengenai pinjam meminjam antara atau yang melibatkan Penyelenggara, Pemberi Pinjaman, dan/atau Penerima Pinjaman wajib dilakukan melalui escrow account dan virtual account sebagaimana yang diwajibkan berdasarkan Peraturan Otoritas Jasa Keuangan Nomor 10 /POJK.05/2022 tentang Layanan Pinjam Meminjam Uang Berbasis Teknologi Informasi dan pelanggaran atau ketidakpatuhan terhadap ketentuan tersebut merupakan bukti telah terjadinya pelanggaran hukum oleh Penyelenggara sehingga Penyelenggara wajib menanggung ganti rugi yang diderita oleh masing-masing Pengguna sebagai akibat langsung dari pelanggaran hukum tersebut di atas tanpa mengurangi hak Pengguna yang menderita kerugian menurut Kitab Undang-Undang Hukum Perdata.",
+    "paraph-10": "<strong>PT Artha Permata Makmur</strong> merupakan badan hukum yang didirikan berdasarkan Hukum Republik Indonesia. Berdiri sebagai perusahaan yang telah diatur oleh dan dalam pengawasan Otoritas Jasa Keuangan (OJK) di Indonesia, Perusahaan menyediakan layanan interfacing sebagai penghubung pihak yang memberikan pinjaman dan pihak yang membutuhkan pinjaman meliputi pendanaan dari individu, organisasi, maupun badan hukum kepada individu atau badan hukum tertentu. Perusahaan tidak menyediakan segala bentuk saran atau rekomendasi pendanaan terkait pilihan-pilihan dalam situs ini.",
+    "paraph-11": "Isi dan materi yang tersedia pada situs <strong>www.cashcepat.id </strong> dimaksudkan untuk memberikan informasi dan tidak dianggap sebagai sebuah penawaran, permohonan, undangan, saran, maupun rekomendasi untuk menginvestasikan sekuritas, produk pasar modal, atau jasa keuangan lainya. Perusahaan dalam memberikan jasanya hanya terbatas pada fungsi administratif.",
+    "paraph-12": "Pendanaan dan pinjaman yang ditempatkan di rekening <strong>Cashcepat</strong> adalah tidak dan tidak akan dianggap sebagai simpanan yang diselenggarakan oleh Perusahaan seperti diatur dalam Peraturan Perundang-Undangan tentang Perbankan di Indonesia. Perusahaan atau setiap Direktur, Pegawai, Karyawan, Wakil, Afiliasi, atau Agen-Agennya tidak memiliki tanggung jawab terkait dengan setiap gangguan atau masalah yang terjadi atau yang dianggap terjadi yang disebabkan oleh minimnya persiapan atau publikasi dari materi yang tercantum pada situs Perusahaan.",
+    "agree": "setuju"
+  },
+  "cs": {
+    "flow-1": "Konsumen melakukan pengaduan melalui, kontak cashcepat <strong>(021) 83782891/92</strong>, email cashcepat <strong>(cs@cashcepat.co.id)</strong>, atau mengisi form <strong>'Hubungi Kami'</strong>.",
+    "flow-2": "Menunggu analisa terkait masalah tersebut selama maksimal 24 jam.",
+    "flow-3": "Informasi mengenai update masalah tersebut akan dikirimkan kembali melalui email pelapor."
+  },
+  "modal-email": {
+    "title": "email anda sukses terkirim",
+    "message": "Kami sedang meninjau pesan Anda dan akan menghubungi Anda melalui nomor telepon atau email yang tertera dalam waktu maksimal 24 jam. Terima kasih atas pengertiannya.",
+    "button": "tutup"
+  }
+}

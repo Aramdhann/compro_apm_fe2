@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Patricia Hutapea",
+    "position": "Director and Shareholder",
+    "description": "Born in Jakarta. Based in Jakarta, Indonesia. Serving as a Shareholder of PT Artha Permata Makmur since December 31, 2019. And became a director since February 18, 2020.",
+    "career": "Started her career as an Assistant Product Manager at Citibank (1998). Then became an Assistant Product Manager at Gardenia Foods Singapore (1998-2000). After that, she worked as a Financial Marketing Summer Intern at Pepsi Cola Company, New York (2001). Then served as a Business Manager at Nissho Iwai American Corporation, New York (2002-2004). Shareholder of PT Panca Global Sekuritas since 2004 and PT Panca Global Kapital since 2018.",
+    "background": "Studied Business Administration at the University of Wisconsin, Madison, and earned a Master of Business Administration degree from Carnegie Mellon University, Pittsburgh PA.",
+    "images": ["../../../src/assets/dir_1.jpg"]
+  },
+  {
+    "id": 2,
+    "name": "Lili Darmawan",
+    "position": "Shareholder",
+    "description": "Born in Jakarta. Based in Jakarta, Indonesia. Serving as a Shareholder of PT Artha Permata Makmur since January 2018.",
+    "career": "Worked at PT Altha Permata Makmur Indonesia as Director of Accounting and Finance since 2004.",
+    "background": "Completed her education in Economics at the School of Economics YAI Jakarta in 2001.",
+    "images": ["../../../src/assets/dir_2.jpg"]
+  }
+]
