@@ -135,7 +135,7 @@ const DetailBisnis = () => {
                 </div>
               </div>
               <p className="flex w-1/2 text-abu text-sm md:text-base">
-                {t("detail.lastUpdate")} {formatDate(item.createdAt)}
+                {t("detail.lastUpdate")} {formatDate(item.tanggal)}
               </p>
             </div>
           ))

@@ -93,10 +93,10 @@ const Report = () => {
                     </p>
                     <div className="flex justify-between">
                       <p className="text-base font-normal">
-                        {t("report.date")} {formatDate(item.createdAt)}
+                        {t("report.date")} {formatDate(item.tanggal)}
                       </p>
                       <p className="flex text-xs items-center justify-center font-normal bg-secondary px-2 rounded-full">
-                        {item.createdAt !== undefined && item.createdAt !== null
+                        {item.tanggal !== undefined && item.tanggal !== null
                           ? "Audited"
                           : "No data"}
                       </p>
@@ -156,10 +156,10 @@ const Report = () => {
                     </p>
                     <div className="flex justify-between">
                       <p className="text-base font-normal ">
-                        {t("report.date")} {""} {formatDate(item.createdAt)}
+                        {t("report.date")} {formatDate(item.tanggal)}
                       </p>
                       <p className="flex text-xs items-center justify-center font-normal bg-secondary px-2 rounded-full">
-                        {item.createdAt !== undefined && item.createdAt !== null
+                        {item.tanggal !== undefined && item.tanggal !== null
                           ? "Audited"
                           : "No data"}
                       </p>
@@ -215,7 +215,7 @@ const Report = () => {
                   <p className="mb-3">{t("report.opini")}</p>
                   <div className="flex justify-between">
                     <p className="text-base font-normal mr-2 lg:mr-4">
-                      {t("report.date")} {formatDate(item.createdAt)}
+                      {t("report.date")} {formatDate(item.tanggal)}
                     </p>
                     <p className="flex text-xs items-center justify-center font-normal bg-secondary px-2 rounded-lg md:rounded-full">
                       {item !== undefined && item !== null
