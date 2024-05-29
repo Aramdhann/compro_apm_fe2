@@ -25,8 +25,8 @@ const Hero = () => {
           </div>
           <div className="md:w-5/12 px-4">
             <Carousel>
-              {slides.map((s) => (
-                <img src={s} />
+              {slides.map((s, index) => (
+                <img key={index} src={s} />
               ))}
             </Carousel>
             {/* <img
