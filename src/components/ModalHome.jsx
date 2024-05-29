@@ -5,7 +5,7 @@ import LangSelector from "./LangSelector";
 import Cookies from "js-cookie";
 import { Suspense } from "react";
 
-const ModalHome = () => {
+const ModalHome = ({onAccept}) => {
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -21,6 +21,7 @@ const ModalHome = () => {
     if (modal) {
       modal.close();
     }
+    onAccept();
   };
 
   return (

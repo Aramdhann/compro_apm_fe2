@@ -11,6 +11,7 @@ export default {
       current: "currentColor",
       white: "#ffffff",
       dope: "#333333",
+      black: "#000000",
       abu: "#DEE2E6",
       gray: {
         200: "#e5e7eb",
