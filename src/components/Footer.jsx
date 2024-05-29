@@ -37,7 +37,7 @@ const Footer = () => {
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
               <p className="text-sm md:text-base py-2">
-                Blue Bird Office Park 6th Floor, Jalan Mampang Prapatan No. 15
+              Blue Bird Office Park 6th Floor, Jalan Mampang Prapatan No. 15, <br/> Tegal Parang, Kec. Mampang Prapatan, Jakarta Selatan, <br/> Daerah Khusus Ibukota Jakarta 12790
               </p>
             </div>
             <div className="flex flex-col gap-1">
