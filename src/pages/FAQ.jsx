@@ -34,7 +34,7 @@ const FAQ = () => {
         {
           question: "Dapatkah saya membatalkan setelah aplikasi diajukan?",
           answered:
-            "Umumnya tidak dapat dibatalkan setelah permohonan pinjaman diajukan. Jika Anda benar-benar perlu membatalkan pinjaman, Anda dapat menghubungi layanan pelanggan untuk membatalkan jika status permohonan pinjaman Anda adlaah `Sedang diproses`, pinjaman telah dilepaskan dan tidak dapat dibatalkan saat ini.",
+            "Umumnya tidak dapat dibatalkan setelah permohonan pinjaman diajukan. Jika Anda benar-benar perlu membatalkan pinjaman, Anda dapat menghubungi layanan pelanggan untuk membatalkan jika status permohonan pinjaman Anda adalah `Sedang diproses`, pinjaman telah dilepaskan dan tidak dapat dibatalkan saat ini.",
         },
         {
           question:
@@ -65,7 +65,7 @@ const FAQ = () => {
         {
           question: "Bagaimana jika saya terlambat membayar?",
           answered:
-            "Peminjam harus benar-benar melaksanakan kewajiban pelunasannya. Jika tidak ada pembayaran penuh pada tanggal pembayaran yang ditetapkan dalam perjanjian pinjaman, yang mengakibatkan periode jatuh tempo, peminjam harus membayar bunga penalti yang telah jatuh tempo. Setelah periode jatuh tempo terjadi, dapat hubungi layanan pelanggan: 021-79180081 untuk membantu pembayaran.",
+            "Peminjam harus benar-benar melaksanakan kewajiban pelunasannya. Jika tidak ada pembayaran penuh pada tanggal pembayaran yang ditetapkan dalam perjanjian pinjaman, yang mengakibatkan periode jatuh tempo, peminjam harus membayar bunga penalti yang telah jatuh tempo. Setelah periode jatuh tempo terjadi, dapat hubungi layanan pelanggan: (021) 83782891/92 untuk membantu pembayaran.",
         },
       ],
     },
@@ -88,7 +88,7 @@ const FAQ = () => {
           question:
             "Ketika petugas kami menelepon, pertanyaannya salah/panggilan tidak terjawab, apa yang harus di lakukan?",
           answered:
-            "Petugas yang menyetujui akan menilai apakah ada kebutuhan untuk menghubungi lagi berdasarkan situasi keseluruhan, harap perhatikan panggilan nanti. Jika perlu, Anda dapat menghubungi layanan pelanggan untuk melakukan pengingat, hotline layanan pelanggan: 021-79180081.",
+            "Petugas yang menyetujui akan menilai apakah ada kebutuhan untuk menghubungi lagi berdasarkan situasi keseluruhan, harap perhatikan panggilan nanti. Jika perlu, Anda dapat menghubungi layanan pelanggan untuk melakukan pengingat, hotline layanan pelanggan: (021) 83782891/92.",
         },
       ],
     },
@@ -167,7 +167,7 @@ const FAQ = () => {
         {
           question: "What if I'm late in payment?",
           answered:
-            "Borrowers must fully comply with their repayment obligations. If there is no full payment on the payment date specified in the loan agreement, resulting in the grace period, the borrower must pay the overdue penalty interest. After the grace period occurs, you can contact customer service: 021-79180081 to assist with payment.",
+            "Borrowers must fully comply with their repayment obligations. If there is no full payment on the payment date specified in the loan agreement, resulting in the grace period, the borrower must pay the overdue penalty interest. After the grace period occurs, you can contact customer service: (021) 83782891/92 to assist with payment.",
         },
       ],
     },
@@ -191,7 +191,7 @@ const FAQ = () => {
           question:
             "When our officers call, the questions are wrong/the call is not answered, what should be done?",
           answered:
-            "Approving officers will assess whether there is a need to call again based on the overall situation, please pay attention to the call later. If necessary, you can contact customer service for a reminder, customer service hotline: 021-79180081.",
+            "Approving officers will assess whether there is a need to call again based on the overall situation, please pay attention to the call later. If necessary, you can contact customer service for a reminder, customer service hotline: (021) 83782891/92.",
         },
       ],
     },

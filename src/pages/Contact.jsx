@@ -8,7 +8,7 @@ import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import icon_telepon from "../assets/telepon.svg";
 import gap from "../assets/gap.svg";
 import FraudNav from "../components/FraudNav";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import FlowReport from "../components/FlowReport";
 import Loading from "../components/Loading";
 import axios from "axios";
@@ -235,21 +235,27 @@ const Contact = () => {
                   className="flex flex-col gap-4 bg-abu p-4 rounded-md relative"
                   style={{ width: "300px" }}
                 >
-                  <div class="circle-1 absolute">
-                    <div class="circle-2"></div>
+                  <div className="circle-1 absolute">
+                    <div className="circle-2"></div>
                   </div>
                   <p className="font-bold uppercase bg-red_light p-2 rounded-md">
-                    Selain channel sosial media di atas, kami tidak memiliki
-                    keberadaan di platform sosial media lainnya.
+                    {t("serviceHour.fraud-title")}
                   </p>
                   <p>
-                    Kami juga ingin menekankan bahwa kami <b>tidak pernah
-                    menawarkan produk atau layanan melalui sosial media selain
-                    dari channel resmi yang telah disebutkan di atas.</b> Ini adalah langkah kami
-                    untuk mencegah kemungkinan terjadinya fraud atau penipuan.
-                    Kami mendorong pelanggan kami untuk <b>selalu melakukan
-                    transaksi melalui aplikasi resmi kami dan waspada terhadap
-                    penipuan online.</b>
+                  <Trans i18nKey={"serviceHour.fraud-description"}>
+                      Kami juga ingin menekankan bahwa kami{" "}
+                      <strong>
+                        tidak pernah menawarkan produk atau layanan melalui
+                        media sosial selain akun media sosial resmi yang
+                        disebutkan di atas
+                      </strong>
+                      . Ini adalah langkah kami untuk mencegah kemungkinan
+                      penipuan atau penipuan. Kami menghimbau pelanggan untuk{" "}
+                      <strong>
+                        selalu melakukan transaksi melalui aplikasi resmi kami
+                        dan waspada terhadap penipuan online
+                      </strong>
+                    </Trans>
                   </p>
                 </div>
               </div>

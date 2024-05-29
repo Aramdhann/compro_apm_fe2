@@ -1,5 +1,6 @@
 {
   "navbar": {
+    "title": "Licensed and <br /> Supervised by OJK",
     "btn-1": "Home",
     "btn-2": "Product",
     "btn-3": "Events & Activities",
@@ -65,7 +66,9 @@
       "aplikasi": "Application",
       "informasi": "Information",
       "lain-lain": "Other"
-    }
+    },
+    "fraud-title": "Apart from the social media accounts above, we do not have any other social media platform accounts.",
+    "fraud-description": "We also want to emphasize that we <strong>never offer products or services via social media other than the official social media accounts mentioned above.</strong>This is our measure to prevent possible fraud or deception. We encourage customers to <strong>always make transactions through our official application and be alert to online fraud</strong>"
   },
   "footer": {
     "office": "Head Office",

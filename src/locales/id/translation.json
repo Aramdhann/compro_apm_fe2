@@ -1,5 +1,6 @@
 {
   "navbar": {
+    "title": "Berizin dan <br /> Diawasi OJK",
     "btn-1": "Home",
     "btn-2": "Produk",
     "btn-3": "Acara & Kegiatan",
@@ -65,7 +66,9 @@
       "aplikasi": "Aplikasi",
       "informasi": "Informasi",
       "lain-lain": "Lainnya"
-    }
+    },
+    "fraud-title": "Selain akun media sosial di atas, kami tidak memiliki akun platform media sosial lainnya.",
+    "fraud-description": "Kami juga ingin menekankan bahwa kami <strong>tidak pernah menawarkan produk atau layanan melalui media sosial selain akun media sosial resmi yang disebutkan di atas.</strong> Ini adalah langkah kami untuk mencegah kemungkinan penipuan atau penipuan. Kami menghimbau pelanggan untuk <strong>selalu melakukan transaksi melalui aplikasi resmi kami dan waspada terhadap penipuan online</strong>"
   },
   "footer": {
     "office": "Kantor Pusat",

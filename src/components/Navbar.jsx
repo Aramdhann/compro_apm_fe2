@@ -5,7 +5,7 @@ import gap from "../assets/gap.svg";
 import logo_afpi from "../assets/AFPI_logo_merge.svg";
 import { AiOutlineInfoCircle } from "react-icons/ai";
 import LangSelector from "./LangSelector";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import { Suspense } from "react";
 import axios from "axios";
 
@@ -128,9 +128,11 @@ const navbar = () => {
                 href="https://www.ojk.go.id/id/"
                 className="flex items-center text-xs md:text-sm"
               >
+                <Trans i18nKey={"navbar.title"}>
                 Berizin dan
                 <br />
                 Diawasi OJK
+                </Trans>
                 {/* <img src={logo_ojk} alt="Logo OJK" className="w-20 md:w-16" /> */}
               </a>
               <a href="https://afpi.or.id/" className="flex items-center">
