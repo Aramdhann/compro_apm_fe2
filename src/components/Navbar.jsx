@@ -199,7 +199,7 @@ const navbar = () => {
             </div>
             <div className="text-dope bg-secondary focus:ring-4 focus:outline-none font-base rounded-lg text-xs md:text-sm px-1 py-2 md:px-2 text-center md:mr-0">
               <div className="flex items-center gap-1">
-                TKB90 = {tkbValue.data ? `${tkbValue.data}` : "Loading..."}
+                TKB90 = {tkbValue.data ? `${tkbValue.data}` : "Loading..."} %
                 <button
                   onClick={() =>
                     document.getElementById("modal_tkb").showModal()
