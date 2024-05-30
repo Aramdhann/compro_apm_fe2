@@ -48,6 +48,7 @@ const Contact = () => {
   const sendEmail = () => {
     const { subject, name, phoneNumber, email, message } = formData;
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const phoneRegex = /^\d+$/;
 
     if (!selectedJenisPengaduan) {
       setDropdownError("Please select a type of complaint");
@@ -69,6 +70,9 @@ const Contact = () => {
 
     if (phoneNumber.trim() === "") {
       newErrors.phoneNumber = "Phone number is required";
+      valid = false;
+    } else if (!phoneRegex.test(phoneNumber)) {
+      newErrors.phoneNumber = "Phone number must contain only digits";
       valid = false;
     }
 
@@ -92,8 +96,12 @@ const Contact = () => {
     const formattedPhoneNumber = formatPhoneNumber(phoneNumber);
 
     const emailMessage = {
-      to: "radityamochamad@gmail.com", // just SAMPLE using email developer
-      pass: "B165E90245CB65CB6BC5D23BAC1CF373CC31", // just SAMPLE using email developer
+      // to: "radityamochamad@gmail.com", // just SAMPLE using email developer
+      // pass: "B165E90245CB65CB6BC5D23BAC1CF373CC31", // just SAMPLE using email developer
+      // subject: subject,
+      // body: `Jenis Pengaduan: ${subject}<br/>Name: ${name}<br/>Phone Number: ${formattedPhoneNumber}<br/>Email: ${email}<br/>Message: ${message}`,
+      to: "putri.refita@cashcepat.co.id",
+      pass: "8CA381C11FA3602A4A8E08079F09BC5873C7",
       subject: subject,
       body: `Jenis Pengaduan: ${subject}<br/>Name: ${name}<br/>Phone Number: ${formattedPhoneNumber}<br/>Email: ${email}<br/>Message: ${message}`,
     };
@@ -102,9 +110,10 @@ const Contact = () => {
       // Host: "smtp.elasticemail.com",
       // Username: emailMessage.to,
       // Password: emailMessage.pass,
-
+      
       // if use secure token, we no need use host, username and password (above) again check details in https://smtpjs.com/
-      SecureToken: "4f426c3a-a319-4056-81e0-3ae8700edc45", // just SAMPLE using email developer
+      // SecureToken: "4f426c3a-a319-4056-81e0-3ae8700edc45", // just SAMPLE using email developer
+      SecureToken: "4a9849e8-6974-4ae1-bb07-58aab20b4ddb",
       To: emailMessage.to,
       From: emailMessage.to,
       Subject: emailMessage.subject,
