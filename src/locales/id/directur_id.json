@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "name": "Indra Josepha",
+    "position": "komisaris dan pemegang saham",
+    "description": "Lahir di Lahat. Berdomisili di Jakarta, Indonesia. Menjabat sebagai Direktur sekaligus pemegang saham PT Artha Permata Makmur sejak tahun 2018. Dan menjadi komisaris sejak 18 Februari 2020",
+    "career": "Mengawali karir di Citibank sebagai Ledger Keeper Shift Spv, Current Account Dept. (1974-1977), ExpoWlmport Dept, (1977-1982), Assistant Manager (1982-1983), Administration Manager (1984-1986), Assistant Vice President (1986-1987) di Human Resources. Selanjutnya, Indra Josepha melanjutkan karir ke Salim Group sebagai Dept. Head Human Resources Dev. PT. Inti Salim Corp (1987-1992), Human Resources, Agriculture, Chemical and Food & Beverages divisions (1992-1994), Human Resources/Public Relations (1995-1999), HR/PR/lnvestor Relations (1999-2004). Business Dev. Officer (2004-2007), Dewan Komisaris John Roben Power Indonesia (2007-sekarang).",
+    "background": "Pernah menempuh Pendidikan Fakultas Ekonomi di Universitas Indonesia pada tahun 1965-1968.",
+    "images": ["/assets/dir_3.jpg"]
+  },
+  {
+    "id": 2,
     "name": "Patricia Hutapea",
     "position": "direksi dan pemegang saham",
     "description": "Lahir di Jakarta. Berdomisili di Jakarta, Indonesia. Menjabat sebagai Pemegang Saham PT Artha Permata Makmur sejak 31 Desember 2019. Dan menjadi direksi sejak 18 Februari 2020.",
@@ -9,7 +18,7 @@
     "images": ["/assets/dir_1.jpg"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Lili Darmawan",
     "position": "pemegang saham",
     "description": "Lahir di Jakarta. Berdomisili di Jakarta, Indonesia. Menjabat sebagai Pemegang Saham PT Artha Permata Makmur sejak Januari 2018.",

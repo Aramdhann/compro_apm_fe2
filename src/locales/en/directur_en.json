@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "name": "Indra Josepha",
+    "position": "Commissioner and Shareholder",
+    "description": "Indra Josepha was born in Lahat, and live subsequently living in Jakarta, Indonesia. He has been serving as a director and shareholder of PT Artha Permata Makmur since 2018, before becoming a commissioner in Februari 2020.",
+    "career": "He began his career at Citibank as Ledger Keeper Shift Supervisor, Current Account Department (1994-1977), Officer of Export/ Import Department (1977-1982), Administration Manager (1982-1986), Assistant Vice President (1986-1987) in Human Resources. After that, Indra Josepha continued his career in Salim Group as a head of Human Resources Development department PT Inti Salim Corporation (1987-1992), Human Resources, Agriculture, Chemical and Food & Beverages divisions (1992-1994), Human Resources/ Public Relations (1995-1999), HR/ PR/ Investor Relations (1999-2004). Business Development Officer (2004-2007), Board of Commissioners of John Robert Power Indonesia (2007-present).",
+    "background": "He studied in Economics facility of the Universitas Indonesia between 1965-1968.",
+    "images": ["/assets/dir_3.jpg"]
+  },
+  {
+    "id": 2,
     "name": "Patricia Hutapea",
     "position": "Director and Shareholder",
     "description": "Born in Jakarta. Based in Jakarta, Indonesia. Serving as a Shareholder of PT Artha Permata Makmur since December 31, 2019. And became a director since February 18, 2020.",
@@ -9,7 +18,7 @@
     "images": ["/assets/dir_1.jpg"]
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Lili Darmawan",
     "position": "Shareholder",
     "description": "Born in Jakarta. Based in Jakarta, Indonesia. Serving as a Shareholder of PT Artha Permata Makmur since January 2018.",
