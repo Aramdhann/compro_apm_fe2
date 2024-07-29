@@ -100,6 +100,12 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="flex-auto">
+              <Link
+                  to="/director"
+                  className="text-base block mb-2 rounded-lg hover:text-dark_green md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "
+                >
+                  {t("navbar.btn-8")}
+                </Link>
                 <Link
                   to="/faq"
                   className="text-base block mb-2 rounded-lg hover:text-dark_green md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "

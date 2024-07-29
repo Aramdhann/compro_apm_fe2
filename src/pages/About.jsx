@@ -23,7 +23,6 @@ const About = () => {
       </div>
       <Trusted />
       <Visi />
-      <Directur />
       <Program />
       <DetailBisnis />
       <Report />

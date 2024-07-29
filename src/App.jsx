@@ -1,5 +1,6 @@
 import React, { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
+import Directur from "./pages/Directur";
 const Home = lazy(() => import("./pages/Home"));
 const Product = lazy(() => import("./pages/Product"));
 const Event = lazy(() => import("./pages/Event"));
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/faq" element={<FAQ />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy-policy" element={<Privacy />} />
+      <Route path="/director" element={<Directur />} />
 
       <Route path="*" element={<NotFound />} />
     </Routes>
