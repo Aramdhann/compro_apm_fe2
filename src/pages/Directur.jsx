@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo_cashcepat from "../assets/logo_cashcepat.svg";
 import { useTranslation } from "react-i18next";
 import LangSelector from "../components/LangSelector";
@@ -6,6 +6,10 @@ import Directur from "../components/Directur";
 
 const Director = () => {
   const { t } = useTranslation();
+
+    useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="bg-gray-200 min-h-screen">
