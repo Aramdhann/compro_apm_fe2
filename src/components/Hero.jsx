@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import foto_hero from "../assets/foto.jpg";
-import foto_fraud from "../assets/fraud.png";
+import foto_fraud from "../assets/fraud_27-7-2024.png";
 const DownloadFraud = lazy(() => import("./DownloadFraud"));
 const Carousel = lazy(() => import("../components/Carousel"));
 import { useTranslation, Trans } from "react-i18next";

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import foto_fraud from "../assets/fraud.png";
+import foto_fraud from "../assets/fraud_27-7-2024.png";
 
 export default function PopupModal() {
   const [showModal, setShowModal] = useState(true);
