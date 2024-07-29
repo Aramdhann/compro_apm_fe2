@@ -1,5 +1,6 @@
 import {React, Suspense} from "react";
 import { useTranslation } from "react-i18next";
+import foto_office from '../assets/office.jpg'
 
 const AboutUs = () => {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ const AboutUs = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               className="w-full aspect-video"
             ></iframe> */}
+            <img src={foto_office} alt="foto kantor pt. apm" />
           </div>
         </div>
       </div>
