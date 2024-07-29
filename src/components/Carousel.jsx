@@ -4,7 +4,7 @@ import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 export default function Carousel({
   children: slides,
   autoSlide = true,
-  autoSlideInterval = 7000,
+  autoSlideInterval = 15000,
 }) {
   const [curr, setCurr] = useState(0);
 
