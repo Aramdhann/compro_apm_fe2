@@ -15,14 +15,14 @@ const AboutUs = () => {
             <p className="md:text-justify mb-8">{t("about.description")}</p>
           </div>
           <div className="w-full sm:w-3/4 md:w-6/12 md:p-5 lg:p-10 mx-auto">
-            <iframe
+            {/* <iframe
               width="640"
               height="360"
               src="https://www.youtube.com/embed/-IvyUwle1cY?playlist=-IvyUwle1cY&rel=0&showinfo=0&autoplay=1&mute=1&loop=1"
               title="#Cashcepat - Pinjaman Online"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               className="w-full aspect-video"
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
