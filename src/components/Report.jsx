@@ -68,17 +68,16 @@ const Report = () => {
     if (!value || value === "-") {
       return "-"; // Set default value to '-'
     }
-  
+
     const isNegative = value < 0; // Check if the value is negative
     const absoluteValue = Math.abs(value);
-  
+
     const reverse = absoluteValue.toString().split("").reverse().join("");
     const ribuan = reverse.match(/\d{1,3}/g);
     const formatted = ribuan.join(".").split("").reverse().join("");
-    
+
     return isNegative ? `-${formatted}` : `${formatted}`; // Add negative sign if necessary
   };
-  
 
   return (
     <Suspense fallback={"Loading..."}>
@@ -101,7 +100,9 @@ const Report = () => {
                           : "No data"}
                       </p>
                     </div>
-                    <p className="text-xs font-normal italic">{t("report.jutaan")}</p>
+                    <p className="text-xs font-normal italic">
+                      {t("report.jutaan")}
+                    </p>
                   </div>
                   <div className="flex flex-col gap-1">
                     <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
@@ -117,29 +118,44 @@ const Report = () => {
                       </p>
                       <p>{formatRupiah(item.asset_tidak_lancar)}</p>
                     </div>
+                    <div>
+                      <p className="float-right font-bold">
+                        {formatRupiah(
+                          item.asset_lancar + item.asset_tidak_lancar
+                        )}
+                      </p>
+                    </div>
                   </div>
                   <div className="flex flex-col gap-1">
                     <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
                       {t("report.liabilities")}
                     </p>
                     <div className="flex justify-between">
-                      <p className="font-bold">{t("report.currentAsset")}</p>
+                      <p className="font-bold">
+                        {t("report.currentLiabilities")}
+                      </p>
                       <p>{formatRupiah(item.liabilitas_lancar)}</p>
                     </div>
                     <div className="flex justify-between">
                       <p className="font-bold">
-                        {t("report.non-currentAsset")}
+                        {t("report.non-currentLiabilities")}
                       </p>
                       <p>{formatRupiah(item.liabilitas_tidak_lancar)}</p>
                     </div>
+                    <div>
+                      <p className="float-right font-bold">
+                        {formatRupiah(
+                          item.liabilitas_lancar + item.liabilitas_tidak_lancar
+                        )}
+                      </p>
+                    </div>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
-                      {t("report.equity")}
-                    </p>
                     <div className="flex justify-between">
-                      <p className="font-bold">{t("report.total")}</p>
-                      <p>{formatRupiah(item.ekuitas_total)}</p>
+                      <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
+                        {t("report.equity")}
+                      </p>
+                      <p className="font-bold">{formatRupiah(item.ekuitas_total)}</p>
                     </div>
                   </div>
                 </div>
@@ -155,8 +171,8 @@ const Report = () => {
                       {t("report.stateCompre")}
                     </p>
                     <div className="flex justify-between">
-                      <p className="text-base font-normal ">
-                        {t("report.date")} {formatDate(item.tanggal)}
+                      <p className="text-base font-normal me-2">
+                        {t("report.date_compre")} {formatDate(item.tanggal)}
                       </p>
                       <p className="flex text-xs items-center justify-center font-normal bg-secondary px-2 rounded-full">
                         {item.tanggal !== undefined && item.tanggal !== null
@@ -164,42 +180,40 @@ const Report = () => {
                           : "No data"}
                       </p>
                     </div>
-                  <p className="text-xs font-normal italic">{t("report.jutaan")}</p>
+                    <p className="text-xs font-normal italic">
+                      {t("report.jutaan")}
+                    </p>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
-                      {t("report.income")}
-                    </p>
                     <div className="flex justify-between">
-                      <p className="font-bold">{t("report.total")}</p>
+                      <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
+                        {t("report.income")}
+                      </p>
                       <p>{formatRupiah(item.income_total)}</p>
                     </div>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
-                      {t("report.operating")}
-                    </p>
                     <div className="flex justify-between">
-                      <p className="font-bold">{t("report.total")}</p>
-                      <p>{formatRupiah(item.operating_total)}</p>
+                      <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
+                        {t("report.operating")}
+                      </p>
+                      <p>({formatRupiah(item.operating_total)})</p>
                     </div>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
-                      {t("report.otherIncome")}
-                    </p>
                     <div className="flex justify-between">
-                      <p className="font-bold">{t("report.total")}</p>
-                      <p>{formatRupiah(item.other_income_total)}</p>
+                      <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
+                        {t("report.otherIncome")}
+                      </p>
+                      <p>({formatRupiah(item.other_income_total)})</p>
                     </div>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
-                      {t("report.compre")}
-                    </p>
                     <div className="flex justify-between">
-                      <p className="font-bold">{t("report.total")}</p>
-                      <p>{formatRupiah(item.profit_loss)}</p>
+                      <p className="uppercase bg-primary w-fit px-2 rounded-full font-bold text-white">
+                        {t("report.compre")}
+                      </p>
+                      <p className="font-bold">{formatRupiah(item.profit_loss)}</p>
                     </div>
                   </div>
                 </div>
@@ -218,9 +232,10 @@ const Report = () => {
                       {t("report.date")} {formatDate(item.tanggal)}
                     </p>
                     <p className="flex text-xs items-center justify-center font-normal bg-secondary px-2 rounded-lg md:rounded-full">
-                      {item !== undefined && item !== null
+                      {/* {item !== undefined && item !== null
                         ? item.status
-                        : "No data"}
+                        : "No data"} */}
+                        {t("report.opiniAudited")}
                     </p>
                   </div>
                 </div>

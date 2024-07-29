@@ -7,6 +7,7 @@
     "btn-4": "Tentang Kami",
     "btn-5": "FAQ",
     "btn-6": "Hubungi Kami",
+    "btn-7": "Kebijakan Privasi",
     "tkb-desc": "Tingkat Keberhasilan Total (TKB TOTAL) merupakan angka perbandingan nilai kredit bermasalah (Non Performing Loan / NPL) terhadap total nilai pinjaman yang berhasil disalurkan."
   },
   "fraud": "<strong>Hindari penipuan!</strong> selalu gunakan aplikasi resmi Cashcepat yang ada <strong> di Google Playstore</strong>. Hanya gunakan VA yang tertera di aplikasi Cashcepat untuk seluruh transaksi pembayaran Anda.",
@@ -15,7 +16,7 @@
     "description": "Cashcepat adalah platform inovatif dalam bidang Pendanaan Berbasis Teknologi Informasi, dengan pengawasan ketat dari Otoritas Jasa Keuangan (OJK). Kami menjadi perantara yang menghubungkan Pemberi Dana dan Penerima Dana melalui layanan daring yang praktis dan aman."
   },
   "trusted": {
-    "ojk": "Berizin dan Di awasi Oleh OJK",
+    "ojk": "Berizin dan Diawasi Oleh OJK",
     "afpi": "Anggota terdaftar dari:",
     "iso": "Tersertifikasi ISO 27001:",
     "kominfo": "Terdaftar di:"
@@ -25,7 +26,7 @@
     "reason-1": "<strong>Berizin dan Diawasi</strong><br /><strong>OJK</strong>(Otoritas Jasa Keuangan)",
     "reason-2": "<strong>Anggota dari AFPI</strong><br />(Asosiasi Fintech Pendanaan Bersama Indonesia)",
     "reason-3": "Proses Pencairan Cepat",
-    "reason-4": "Bunga Pinjaman Rendah",
+    "reason-4": "Bunga Pinjaman Sesuai Arahan OJK",
     "reason-5": "Berkesempatan mendapat diskon",
     "reason-5-2": "repayment"
   },
@@ -68,7 +69,7 @@
       "lain-lain": "Lainnya"
     },
     "fraud-title": "Selain akun media sosial di atas, kami tidak memiliki akun platform media sosial lainnya.",
-    "fraud-description": "Kami juga ingin menekankan bahwa kami <strong>tidak pernah menawarkan produk atau layanan melalui media sosial selain akun media sosial resmi yang disebutkan di atas.</strong> Ini adalah langkah kami untuk mencegah kemungkinan penipuan atau penipuan. Kami menghimbau pelanggan untuk <strong>selalu melakukan transaksi melalui aplikasi resmi kami dan waspada terhadap penipuan online</strong>"
+    "fraud-description": "Kami juga ingin menekankan bahwa kami <strong>tidak pernah menawarkan produk atau layanan melalui media sosial selain akun media sosial resmi yang disebutkan di atas</strong>. Ini adalah langkah kami untuk mencegah kemungkinan penipuan atau penipuan. Kami menghimbau pelanggan untuk <strong>selalu melakukan transaksi melalui aplikasi resmi kami dan waspada terhadap penipuan online</strong>"
   },
   "footer": {
     "office": "Kantor Pusat",
@@ -123,8 +124,8 @@
   },
   "detail": {
     "title": "Detail Bisnis Cashcepat",
-    "loanTotal": "Total Pinjaman Yang Disalurkan (2018)",
-    "loanCurrent": "Total Pinjaman Yang Disalurkan (2023)",
+    "loanTotal": "Total Pinjaman Yang Disalurkan (Sejak tahun 2018)",
+    "loanCurrent": "Total Pinjaman Yang Disalurkan (Pada tahun 2023)",
     "loanOutstanding": "Loan Outstanding Pinjaman",
     "individu": "Individu",
     "institution": "Institusi",
@@ -137,20 +138,23 @@
     "jutaan": "dalam jutaan rupiah",
     "stateFinancial": "Laporan Posisi Keuangan",
     "date": "Pada Tanggal",
+    "date_compre": "Untuk Tahun yang Berakhir Pada",
     "audited": "Teraudit",
     "asset": "asset",
-    "currentAsset": "Lancar",
-    "non-currentAsset": "Tidak Lancar",
+    "currentAsset": "Aset Lancar",
+    "non-currentAsset": "Aset Tidak Lancar",
+    "currentLiabilities": "Liabilitas Jangka Pendek",
+    "non-currentLiabilities": "Liabilitas Jangka Panjang",
     "liabilities": "liabilitas",
     "equity": "ekuitas",
     "total": "Jumlah",
     "stateCompre": "Laporan Laba Rugi Komprehensif",
     "income": "pendapatan",
     "operating": "beban operasional",
-    "otherIncome": "pendapatan lainnya",
+    "otherIncome": "pendapatan (beban) lain-lain",
     "compre": "laba (rugi) komprehensif",
     "opini": "Opini Audit",
-    "opiniAudited": "Wajar Tanpa Pengecualian (Di audit oleh McWillian Woods / KAP Rama Wendra)"
+    "opiniAudited": "Wajar Tanpa Pengecualian ( Di audit oleh KAP Panata & Rekan )"
   },
   "faqTitle": "Pertanyaan yang Sering Diajukan",
   "modal": {

@@ -110,7 +110,7 @@ const Contact = () => {
       // Host: "smtp.elasticemail.com",
       // Username: emailMessage.to,
       // Password: emailMessage.pass,
-      
+
       // if use secure token, we no need use host, username and password (above) again check details in https://smtpjs.com/
       // SecureToken: "4f426c3a-a319-4056-81e0-3ae8700edc45", // just SAMPLE using email developer
       SecureToken: "4a9849e8-6974-4ae1-bb07-58aab20b4ddb",
@@ -251,7 +251,7 @@ const Contact = () => {
                     {t("serviceHour.fraud-title")}
                   </p>
                   <p>
-                  <Trans i18nKey={"serviceHour.fraud-description"}>
+                    <Trans i18nKey={"serviceHour.fraud-description"}>
                       Kami juga ingin menekankan bahwa kami{" "}
                       <strong>
                         tidak pernah menawarkan produk atau layanan melalui

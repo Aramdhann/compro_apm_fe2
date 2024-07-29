@@ -92,14 +92,14 @@ const Footer = () => {
                 >
                   {t("navbar.btn-3")}
                 </Link>
-              </div>
-              <div className="flex-auto">
                 <Link
                   to="/about"
                   className="text-base block mb-2 rounded-lg hover:text-dark_green md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "
                 >
                   {t("navbar.btn-4")}
                 </Link>
+              </div>
+              <div className="flex-auto">
                 <Link
                   to="/faq"
                   className="text-base block mb-2 rounded-lg hover:text-dark_green md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "
@@ -111,6 +111,12 @@ const Footer = () => {
                   className="text-base block mb-2 rounded-lg hover:text-dark_green md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "
                 >
                   {t("navbar.btn-6")}
+                </Link>
+                <Link
+                  to="/privacy-policy"
+                  className="text-base block mb-2 rounded-lg hover:text-dark_green md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 "
+                >
+                  {t("navbar.btn-7")}
                 </Link>
               </div>
             </div>

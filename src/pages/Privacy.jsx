@@ -1,60 +1,29 @@
-import React, { useEffect } from "react";
-import warning from "../assets/warning.svg";
+import React from "react";
+import logo_cashcepat from "../assets/logo_cashcepat.svg";
 import { useTranslation, Trans } from "react-i18next";
-import LangSelector from "./LangSelector";
-import Cookies from "js-cookie";
-import { Suspense } from "react";
+import LangSelector from "../components/LangSelector";
 
-const ModalHome = ({ onAccept }) => {
+const Privacy = () => {
   const { t } = useTranslation();
 
-  useEffect(() => {
-    const modal = document.getElementById("my_modal_1");
-    if (modal && !Cookies.get("agreed")) {
-      modal.showModal();
-    }
-  }, []);
-
-  const handleAgree = () => {
-    Cookies.set("agreed", "true", { expires: 1 }); // 1 day expired
-    const modal = document.getElementById("my_modal_1");
-    if (modal) {
-      modal.close();
-    }
-    onAccept();
-  };
-
   return (
-    <Suspense fallback={"loading..."}>
-      <dialog id="my_modal_1" className="modal">
-        <div className="modal-box pt-0">
-          <div className="sticky top-0 pt-6 pb-4 bg-white">
-            <div className="flex justify-center">
-              <p className="flex font-bold text-lg uppercase text-center mb-4">
-                {t("modal.title")}
-              </p>
-            </div>
-            <div className="flex items-center gap-1 md:gap-2 absolute top-6 right-0">
-              <LangSelector />
-            </div>
-            <div className="flex justify-center bg-primary text-dope w-full p-2 rounded-xl">
-              <img
-                src={warning}
-                alt="icon warning"
-                className="w-6 md:w-8 me-2 flex items-center"
-              />
-              <p className="text-xs md:text-base text-justify px-1">
-                <Trans i18nKey={"fraud"}>
-                  <strong>Hindari penipuan!</strong> selalu gunakan aplikasi
-                  resmi Cashcepat yang
-                  <strong> di Google Playstore</strong>. Hanya gunakan VA yang
-                  tertera di aplikasi Cashcepat untuk seluruh transaksi
-                  pembayaran Anda.
-                </Trans>
-              </p>
-            </div>
-          </div>
-          <div className="px-4 max-h-[450px] overflow-y-auto">
+    <div className="bg-gray-200 min-h-screen">
+      <div className="sticky top-0 py-4 bg-dope">
+        <img
+          src={logo_cashcepat}
+          alt="Logo cashcepat"
+          className="w-28 md:w-36 bg-cover block mx-auto"
+        />
+        <div className="flex items-center gap-1 md:gap-2 absolute top-6 right-3">
+          <LangSelector />
+        </div>
+      </div>
+      <div className="bg-white lg:w-1/2 md:w-3/4 mx-auto min-h-screen">
+        <div className="text-dope py-6">
+          <p className="font-bold lg:text-2xl text-lg text-center">Kebijakan Privasi</p>
+          <p className="italic lg:text-lg text-base text-center">Privacy Policy</p>
+        </div>
+        <div className="px-10 pb-10">
             <ol className="list-decimal text-justify">
               <li>{t("modal.paraph-1")}</li>
               <li>{t("modal.paraph-2")}</li>
@@ -108,21 +77,10 @@ const ModalHome = ({ onAccept }) => {
                 </Trans>
               </p>
             </ol>
-            <div className="modal-action mt-4 mb-1 justify-center">
-              <form method="dialog">
-                <button
-                  className="btn uppercase bg-primary rounded-full hover:bg-secondary"
-                  onClick={handleAgree}
-                >
-                  {t("modal.agree")}
-                </button>
-              </form>
-            </div>
           </div>
-        </div>
-      </dialog>
-    </Suspense>
+      </div>
+    </div>
   );
 };
 
-export default ModalHome;
+export default Privacy;
