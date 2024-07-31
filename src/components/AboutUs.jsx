@@ -1,10 +1,18 @@
 import {React, Suspense} from "react";
 import { useTranslation } from "react-i18next";
-import foto_office from '../assets/office.jpg'
+import Carousel from "./Carousel";
+import compro_1 from '../assets/compro_1.png'
+import compro_2 from '../assets/compro_2.png'
+import compro_3 from '../assets/compro_3.png'
+import compro_4 from '../assets/compro_4.png'
+import compro_5 from '../assets/compro_5.png'
 
 const AboutUs = () => {
   const { t } = useTranslation();
 
+  const slides = [compro_1, compro_2, compro_3, compro_4, compro_5];
+
+  
   return (
     <Suspense fallback={'Loading...'}>
       <div className="py-5 bg-gradient-to-r from-white to-primary w-full">
@@ -24,7 +32,11 @@ const AboutUs = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               className="w-full aspect-video"
             ></iframe> */}
-            <img src={foto_office} alt="foto kantor pt. apm" />
+            <Carousel autoSlideInterval={[5000]} showPrevNextButtons={false} showPaginationDots={false}>
+            {slides.map((s, index) => (
+                <img key={index} src={s} />
+              ))}
+            </Carousel>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Hero = () => {
             <DownloadFraud />
           </div>
           <div className="md:w-5/12 px-4">
-            <Carousel>
+            <Carousel autoSlideInterval={[15000]} showPaginationDots={false}>
               {slides.map((s, index) => (
                 <img key={index} src={s} />
               ))}
