@@ -23,7 +23,7 @@ const AboutUs = () => {
             </h1>
             <p className="md:text-justify mb-8">{t("about.description")}</p>
           </div>
-          <div className="w-full sm:w-3/4 md:w-6/12 md:p-5 lg:p-10 mx-auto">
+          <div className="p-2 sm:p-0 w-full sm:w-3/4 md:w-6/12 md:p-5 lg:p-10 mx-auto">
             {/* <iframe
               width="640"
               height="360"
