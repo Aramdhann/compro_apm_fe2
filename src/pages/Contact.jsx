@@ -162,7 +162,7 @@ const Contact = () => {
             {t("serviceHour.title-2")}
           </h1>
         </div>
-        <div className="flex flex-wrap gap-5 justify-center mx-auto px-5">
+        <div className="flex flex-wrap md:flex-nowrap gap-5 justify-center mx-auto px-2 sm:px-5">
           <div className="flex flex-col gap-3 sm:gap-5 md:gap-12 justify-center mb-10 md:mb-16">
             <div className="hidden md:flex">
               <img
